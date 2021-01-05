@@ -117,7 +117,7 @@ class Enemy:
                     target = step["Current"]
                     shortest.insert(0, step["Current"])
         return shortest
- def get_random_direction(self):
+    def get_random_direction(self):
         while True:
             number = random.randint(-2, 1)
             if number == -2:
